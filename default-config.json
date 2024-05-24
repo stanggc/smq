@@ -1,0 +1,6 @@
+{
+  "Port": 8080,
+  "MessageMaxSize": 256,
+  "Capacity": 1000000,
+  "AuthKey": "ThisIsSecretKey"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "smq",
+  "license": "MIT",
+  "author": "Stanley <stang98426@posteo.net>",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "prettier": "^3.2.5",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "tsx main.ts",
+    "fmt": "prettier --write *.ts",
+    "test": "tsx --test"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "run": "deno run -A main.ts"
+  },
+  "compilerOptions": {
+    "noImplicitAny": false
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-explicit-any"
+      ]
+    }
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "imports": {
+    "@std/io": "jsr:@std/io@^0.224.0",
+    "@std/streams": "jsr:@std/streams@^0.224.0"
+  }
+}
