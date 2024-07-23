@@ -1,0 +1,19 @@
+# Hidden files.
+.*/
+
+# Project artifacts.
+Smq.sln.DotSettings.user
+*/bin/*
+*/obj/*
+
+# MacOS-related.
+.DS_Store
+._*
+
+# HTTPS cert.
+cert.crt
+cert.key
+
+# JS-related.
+node_modules/
+package-lock.json

@@ -1,0 +1,7 @@
+﻿{
+  "Smq": {
+    "Port": 8081,
+    "InitialCapacity": "10000",
+    "AuthKey": "ThisIsSecretKey"
+  }
+}
